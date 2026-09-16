@@ -38,3 +38,6 @@ python -m src.predict
 ```powershell
 python -m pytest
 ```
+## Development
+
+This project is used to practice Git and CI/CD workflows.

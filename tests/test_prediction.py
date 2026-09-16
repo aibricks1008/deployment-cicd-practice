@@ -12,4 +12,4 @@ def test_model_can_be_trained_loaded_and_predicts(tmp_path: Path):
     joblib.dump(model, model_path)
     result = predict([[5.1, 3.5, 1.4, 0.2]], model_path)
     assert result.shape == (1,)
-    assert int(result[0]) in {0, 1, 2}
+    assert int(result[0]) in {99}
